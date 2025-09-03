@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class CharacterCreator : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    Character npc1 = new Character();
+    Character player1 = new Character();
+    Character enemy1 = new Character();
+
     void Start()
     {
-        
+        npc1.Name = "Pepito el basado";
+        npc1.HP = 100;
+        npc1.Job = "Swordman";
+        npc1.ShowName();
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
