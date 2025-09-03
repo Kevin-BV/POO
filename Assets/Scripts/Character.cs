@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
 
     public void ShowName()
     {
-        Debug.log("Nombre: " + Name)
+        Debug.Log("Nombre: " + Name);
     }
 
     
